@@ -1,0 +1,138 @@
+[
+	{
+		"line": 2,
+		"elements": [
+			{
+				"line": 9,
+				"name": "Successful Login with Valid Credentials",
+				"description": "",
+				"id": "login-action;successful-login-with-valid-credentials",
+				"type": "scenario",
+				"keyword": "Scenario",
+				"steps": [
+					{
+						"result": {
+							"duration": 5387071387,
+							"status": "passed"
+						},
+						"line": 11,
+						"name": "I have open the browser",
+						"match": {
+							"location": "cucumberJava.openBrowser()"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 21210504428,
+							"status": "passed"
+						},
+						"line": 12,
+						"name": "I open Facebook website",
+						"match": {
+							"location": "cucumberJava.goToFacebook()"
+						},
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 73510,
+							"status": "passed"
+						},
+						"line": 13,
+						"name": "User enters UserName and Password",
+						"match": {
+							"location": "cucumberJava.check()"
+						},
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 189396771,
+							"status": "passed"
+						},
+						"line": 14,
+						"name": "Login button should exits",
+						"match": {
+							"location": "cucumberJava.loginButton()"
+						},
+						"keyword": "Then "
+					}
+				],
+				"tags": [
+					{
+						"line": 6,
+						"name": "@BDDTEST-FNHW-15"
+					},
+					{
+						"line": 7,
+						"name": "@BDDVER--1"
+					},
+					{
+						"line": 8,
+						"name": "@BDDCYC-f28f3188-d199-447b-9a67-66e79747027d"
+					}
+				]
+			},
+			{
+				"line": 19,
+				"name": "Successful LogOut",
+				"description": "",
+				"id": "login-action;successful-logout",
+				"type": "scenario",
+				"keyword": "Scenario",
+				"steps": [
+					{
+						"result": {
+							"duration": 149591,
+							"status": "passed"
+						},
+						"line": 21,
+						"name": "User LogOut from the Application",
+						"match": {
+							"location": "cucumberJava.sc()"
+						},
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 56546,
+							"status": "passed"
+						},
+						"line": 22,
+						"name": "Message displayed LogOut Successfully",
+						"match": {
+							"location": "cucumberJava.sc2()"
+						},
+						"keyword": "Then "
+					}
+				],
+				"tags": [
+					{
+						"line": 16,
+						"name": "@BDDTEST-FNHW-16"
+					},
+					{
+						"line": 17,
+						"name": "@BDDVER--1"
+					},
+					{
+						"line": 18,
+						"name": "@BDDCYC-f28f3188-d199-447b-9a67-66e79747027d"
+					}
+				]
+			}
+		],
+		"name": "Login Action",
+		"description": "",
+		"id": "login-action",
+		"keyword": "Feature",
+		"uri": "C:/APITesting/CucumberNew/FNHW-14.feature",
+		"tags": [
+			{
+				"line": 1,
+				"name": "@BDDSTORY-FNHW-14"
+			}
+		]
+	}
+]
